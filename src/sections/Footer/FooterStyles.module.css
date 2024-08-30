@@ -1,7 +1,12 @@
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  p {
-    font-size: 16px;
-    color: var(--footer-text-color);
-  }
+  height: 100px; /* or the height you want */
+}
+
+.container p {
+  font-size: 16px;
+  color: var(--footer-text-color);
 }

@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 20px;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.sectionTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  max-width: 60ch;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (min-width: 800px) {
+  .container {
+    padding: 60px 40px;
+  }
+
+  .sectionTitle {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    padding: 80px 60px;
+  }
+
+  .sectionTitle {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
